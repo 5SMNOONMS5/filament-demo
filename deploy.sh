@@ -30,8 +30,6 @@ php artisan route:cache
 # generate config cache
 php artisan optimize
 
-# generate api doc
-php artisan custom:scribe:generate
 
 # run test
 #php artisan test
