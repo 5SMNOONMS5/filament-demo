@@ -17,6 +17,8 @@ class AuthorResource extends Resource
 
     protected static ?string $slug = 'blog/authors';
 
+    protected static ?string $navigationLabel = '作家列表';
+
     protected static ?string $recordTitleAttribute = 'name';
 
     protected static ?string $navigationGroup = 'Blog';

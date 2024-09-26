@@ -25,6 +25,8 @@ class CategoryResource extends Resource
 
     protected static ?string $navigationParentItem = 'Products';
 
+    protected static ?string $navigationLabel = '產品類別';
+
     protected static ?int $navigationSort = 1;
 
     public static function form(Form $form): Form

@@ -21,6 +21,8 @@ class LinkResource extends Resource
 {
     use Translatable;
 
+    protected static ?string $navigationLabel = '部落格連結';
+
     protected static ?string $model = Link::class;
 
     protected static ?string $navigationIcon = 'heroicon-o-link';

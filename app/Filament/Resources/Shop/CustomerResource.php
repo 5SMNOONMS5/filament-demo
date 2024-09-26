@@ -21,6 +21,8 @@ class CustomerResource extends Resource
 
     protected static ?string $slug = 'shop/customers';
 
+    protected static ?string $navigationLabel = '客戶管理';
+
     protected static ?string $recordTitleAttribute = 'name';
 
     protected static ?string $navigationGroup = 'Shop';

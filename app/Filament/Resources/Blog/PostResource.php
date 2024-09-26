@@ -24,6 +24,8 @@ class PostResource extends Resource
 {
     protected static ?string $model = Post::class;
 
+    protected static ?string $navigationLabel = '文章';
+
     protected static ?string $slug = 'blog/posts';
 
     protected static ?string $recordTitleAttribute = 'title';

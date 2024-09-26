@@ -24,6 +24,8 @@ class BrandResource extends Resource
 
     protected static ?string $navigationParentItem = 'Products';
 
+    protected static ?string $navigationLabel = '產品品牌';
+
     protected static ?int $navigationSort = 2;
 
     public static function form(Form $form): Form
